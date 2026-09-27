@@ -1,0 +1,4 @@
+version: synthetic-rates-v1
+as_of: '2026-09-01'
+base_currency: USD
+rates: {USD: '1.00', EUR: '1.10', GBP: '1.25'}

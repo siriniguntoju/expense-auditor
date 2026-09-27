@@ -1,0 +1,35 @@
+x-agent: &agent
+  pull_policy: never
+  image: expense-auditor:local
+  command: [python, -m, uvicorn, 'auditor.services.app:app', --host, '0.0.0.0', --port, '8211']
+  healthcheck:
+    test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8211/.well-known/agent-card.json')"]
+    interval: 10s
+    timeout: 3s
+    retries: 10
+services:
+  intake:
+    <<: *agent
+    environment: {AGENT_ROLE: intake, AGENT_URL: 'http://intake:8211/'}
+  policy:
+    <<: *agent
+    environment: {AGENT_ROLE: policy, AGENT_URL: 'http://policy:8211/'}
+  audit:
+    <<: *agent
+    environment: {AGENT_ROLE: audit, AGENT_URL: 'http://audit:8211/'}
+  reviewer:
+    build: .
+    image: expense-auditor:local
+    ports: ['127.0.0.1:5192:5190']
+    environment:
+      INTAKE_URL: http://intake:8211/
+      POLICY_URL: http://policy:8211/
+      AUDIT_URL: http://audit:8211/
+      AUDITOR_DB: /app/results/auditor.sqlite
+    volumes: [audit-history:/app/results]
+    depends_on:
+      intake: {condition: service_healthy}
+      policy: {condition: service_healthy}
+      audit: {condition: service_healthy}
+volumes:
+  audit-history:

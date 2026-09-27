@@ -1,0 +1,63 @@
+{
+  "report-01": [],
+  "report-02": [],
+  "report-03": [
+    {
+      "rule": "MEAL_LIMIT",
+      "lines": [
+        "e05"
+      ]
+    }
+  ],
+  "report-04": [
+    {
+      "rule": "RECEIPT_REQUIRED",
+      "lines": [
+        "e07"
+      ]
+    }
+  ],
+  "report-05": [
+    {
+      "rule": "DISALLOWED",
+      "lines": [
+        "e09"
+      ]
+    }
+  ],
+  "report-06": [
+    {
+      "rule": "DUPLICATE",
+      "lines": [
+        "e11",
+        "e12"
+      ]
+    }
+  ],
+  "report-07": [
+    {
+      "rule": "SPLIT_REVIEW",
+      "lines": [
+        "e13",
+        "e14"
+      ]
+    }
+  ],
+  "report-08": [
+    {
+      "rule": "WEEKEND_REVIEW",
+      "lines": [
+        "e15"
+      ]
+    }
+  ],
+  "report-09": [
+    {
+      "rule": "AMOUNT_MISMATCH",
+      "lines": [
+        "e17"
+      ]
+    }
+  ],
+  "report-10": []
+}

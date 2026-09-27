@@ -1,0 +1,150 @@
+{
+  "mode": "fixture_replay",
+  "model_calls": 0,
+  "reports_total": 10,
+  "reports_completed": 10,
+  "errors": {},
+  "extraction_accuracy": "not_measured",
+  "human_review_time": "not_measured",
+  "wall_seconds": 7.5,
+  "metrics": {
+    "true_positive": 7,
+    "false_positive": 1,
+    "false_negative": 0,
+    "recall": 1.0,
+    "precision": 0.875,
+    "clean_reports": 3,
+    "clean_reports_flagged": 0,
+    "clean_report_false_positive_rate": 0.0
+  },
+  "flags": {
+    "report-01": [],
+    "report-02": [],
+    "report-03": [
+      {
+        "rule": "MEAL_LIMIT",
+        "lines": [
+          "e05"
+        ],
+        "severity": "violation",
+        "explanation": "Meal exceeds the per-expense limit.",
+        "evidence": {
+          "claim_usd": "90.00",
+          "policy_version": "synthetic-policy-v1",
+          "limit_usd": "75.00"
+        }
+      }
+    ],
+    "report-04": [
+      {
+        "rule": "RECEIPT_REQUIRED",
+        "lines": [
+          "e07"
+        ],
+        "severity": "violation",
+        "explanation": "Receipt required above the threshold.",
+        "evidence": {
+          "claim_usd": "30.00",
+          "policy_version": "synthetic-policy-v1",
+          "threshold_usd": "25.00"
+        }
+      }
+    ],
+    "report-05": [
+      {
+        "rule": "DISALLOWED",
+        "lines": [
+          "e09"
+        ],
+        "severity": "violation",
+        "explanation": "Alcohol is not reimbursable.",
+        "evidence": {
+          "claim_usd": "20.00",
+          "policy_version": "synthetic-policy-v1"
+        }
+      }
+    ],
+    "report-06": [
+      {
+        "rule": "DUPLICATE",
+        "lines": [
+          "e11",
+          "e12"
+        ],
+        "severity": "violation",
+        "explanation": "Matching merchant, date, total and currency.",
+        "evidence": {
+          "fingerprint": [
+            "example cafe 11",
+            "2026-09-22",
+            "20.00",
+            "USD"
+          ]
+        }
+      }
+    ],
+    "report-07": [
+      {
+        "rule": "DUPLICATE",
+        "lines": [
+          "e13",
+          "e14"
+        ],
+        "severity": "violation",
+        "explanation": "Matching merchant, date, total and currency.",
+        "evidence": {
+          "fingerprint": [
+            "example split cafe",
+            "2026-09-22",
+            "40.00",
+            "USD"
+          ]
+        }
+      },
+      {
+        "rule": "SPLIT_REVIEW",
+        "lines": [
+          "e13",
+          "e14"
+        ],
+        "severity": "review",
+        "explanation": "Same-day meals at one merchant exceed the limit together.",
+        "evidence": {
+          "merchant": "example split cafe",
+          "date": "2026-09-22",
+          "combined_usd": "80.00"
+        }
+      }
+    ],
+    "report-08": [
+      {
+        "rule": "WEEKEND_REVIEW",
+        "lines": [
+          "e15"
+        ],
+        "severity": "review",
+        "explanation": "Weekend expense needs a business explanation.",
+        "evidence": {
+          "date": "2026-09-26"
+        }
+      }
+    ],
+    "report-09": [
+      {
+        "rule": "AMOUNT_MISMATCH",
+        "lines": [
+          "e17"
+        ],
+        "severity": "violation",
+        "explanation": "Receipt and claimed amount/currency differ.",
+        "evidence": {
+          "receipt_total": "45.00",
+          "receipt_currency": "USD",
+          "claim": "60.00",
+          "claim_currency": "USD"
+        }
+      }
+    ],
+    "report-10": []
+  }
+}

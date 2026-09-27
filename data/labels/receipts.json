@@ -1,0 +1,282 @@
+{
+  "r01": {
+    "merchant": "Example Cafe 1",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r02": {
+    "merchant": "Example Transit 2",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r03": {
+    "merchant": "Example Cafe 3",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r04": {
+    "merchant": "Example Transit 4",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r05": {
+    "merchant": "Example Cafe 5",
+    "date": "2026-09-22",
+    "total": "90.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "88.00"
+      }
+    ]
+  },
+  "r06": {
+    "merchant": "Example Transit 6",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r07": {
+    "merchant": "Example Cafe 7",
+    "date": "2026-09-22",
+    "total": "30.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "28.00"
+      }
+    ]
+  },
+  "r08": {
+    "merchant": "Example Transit 8",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r09": {
+    "merchant": "Example Cafe 9",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "alcohol",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r10": {
+    "merchant": "Example Transit 10",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r11": {
+    "merchant": "Example Cafe 11",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r12": {
+    "merchant": "Example Cafe 11",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r13": {
+    "merchant": "Example Split Cafe",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r14": {
+    "merchant": "Example Split Cafe",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r15": {
+    "merchant": "Example Cafe 15",
+    "date": "2026-09-26",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r16": {
+    "merchant": "Example Transit 16",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r17": {
+    "merchant": "Example Cafe 17",
+    "date": "2026-09-22",
+    "total": "45.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "43.00"
+      }
+    ]
+  },
+  "r18": {
+    "merchant": "Example Transit 18",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r19": {
+    "merchant": "Example Cafe 19",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "EUR",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r20": {
+    "merchant": "Example Transit 20",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "GBP",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  }
+}
