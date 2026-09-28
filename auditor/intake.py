@@ -47,3 +47,32 @@ async def extract_image(image: bytes, model: str, api_key: str) -> Receipt:
     finally:
         await client.aio.aclose()
         client.close()
+
+
+async def intake(report_id: str, mode: str = "fixture_replay") -> dict:
+    if mode == "fixture_replay":
+        return fixture_intake(report_id)
+    if mode not in {"gemini_live", "gemini_cached"}:
+        raise ValueError("Unknown intake mode")
+    from auditor.live import extract_cached
+
+    report = report_by_id(report_id)
+    if report is None:
+        raise ValueError("Unknown synthetic report")
+    receipts, provenance = {}, {}
+    for expense in report.expenses:
+        rid = expense.receipt_id
+        if rid and rid not in receipts:
+            record = await extract_cached(
+                (ROOT / f"data/receipts/{rid}.png").read_bytes(), cache_only=mode == "gemini_cached"
+            )
+            receipts[rid] = record["receipt"]
+            provenance[rid] = {k: v for k, v in record.items() if k != "receipt"}
+    return dict(
+        report=report.model_dump(mode="json"),
+        receipts=receipts,
+        flags=[],
+        intake_mode=mode,
+        extraction_provenance=provenance,
+        extraction_accuracy="see_benchmark",
+    )

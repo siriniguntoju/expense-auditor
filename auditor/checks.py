@@ -32,7 +32,7 @@ def convert_currency(amount: str, currency: str) -> dict:
     )
 
 
-def check_policy(report: dict, conversions: dict) -> dict:
+def check_policy(report: dict, conversions: dict, receipts: dict | None = None) -> dict:
     report = Report.model_validate(report)
     flags = []
     for e in report.expenses:
@@ -58,6 +58,38 @@ def check_policy(report: dict, conversions: dict) -> dict:
                     dict(evidence, threshold_usd=POLICY["receipt_required_above"]),
                 )
             )
+    daily = defaultdict(list)
+    for e in report.expenses:
+        usd = Decimal(conversions[e.id]["amount_usd"])
+        limit = POLICY.get("category_limits", {}).get(e.category)
+        if limit and usd > Decimal(limit):
+            flags.append(
+                flag(
+                    "CATEGORY_LIMIT",
+                    [e.id],
+                    "Category spending limit exceeded.",
+                    dict(claim_usd=str(usd), limit_usd=limit, policy_version=POLICY["version"]),
+                )
+            )
+        r = (receipts or {}).get(e.receipt_id)
+        if r and e.category == "meals":
+            daily[r["date"]].append(e)
+    for day, expenses in daily.items():
+        total = sum(Decimal(conversions[e.id]["amount_usd"]) for e in expenses)
+        if total > Decimal(POLICY["meal_daily_limit"]):
+            flags.append(
+                flag(
+                    "DAILY_MEAL_LIMIT",
+                    [e.id for e in expenses],
+                    "Daily meal allowance exceeded.",
+                    dict(
+                        date=day,
+                        total_usd=str(total),
+                        limit_usd=POLICY["meal_daily_limit"],
+                        policy_version=POLICY["version"],
+                    ),
+                )
+            )
     return dict(flags=flags, policy_version=POLICY["version"])
 
 
@@ -73,6 +105,16 @@ def audit(packet: dict) -> dict:
         groups[(merchant, str(r.date), str(r.total), r.currency)].append(e.id)
         if e.category == "meals":
             splits[(merchant, str(r.date))].append(e)
+        if str(r.date) in POLICY.get("holidays", []):
+            flags.append(
+                flag(
+                    "HOLIDAY_REVIEW",
+                    [e.id],
+                    "Synthetic policy holiday expense needs justification.",
+                    dict(date=str(r.date), policy_version=POLICY["version"]),
+                    "review",
+                )
+            )
         if r.date.weekday() >= 5:
             flags.append(
                 flag(

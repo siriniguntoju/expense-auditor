@@ -1,5 +1,6 @@
 """Offline end-to-end protocol benchmark; never invokes a model."""
 
+import argparse
 import asyncio
 import json
 import time
@@ -13,10 +14,15 @@ from evals.grading import flag_metrics
 
 
 async def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--mode", choices=["fixture_replay", "gemini_cached"], default="fixture_replay"
+    )
+    args = parser.parse_args()
     started = time.perf_counter()
     actual, errors = {}, {}
     for report in reports():
-        packet = {"report_id": report.id}
+        packet = {"report_id": report.id, "mode": args.mode}
         try:
             for role in ["intake", "policy", "audit"]:
                 app = create_app(role, "http://agent/")
@@ -34,7 +40,7 @@ async def main():
             errors[report.id] = type(e).__name__
     expected = json.loads((ROOT / "data/labels/flags.json").read_text())
     result = dict(
-        mode="fixture_replay",
+        mode=args.mode,
         model_calls=0,
         reports_total=len(expected),
         reports_completed=len(actual),
@@ -45,7 +51,14 @@ async def main():
         metrics=flag_metrics(actual, expected),
         flags=actual,
     )
-    (ROOT / "docs/offline-results.json").write_text(json.dumps(result, indent=2) + "\n")
+    (
+        ROOT
+        / (
+            "docs/offline-results.json"
+            if args.mode == "fixture_replay"
+            else "docs/cached-gemini-results.json"
+        )
+    ).write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps({k: v for k, v in result.items() if k != "flags"}, indent=2))
     if errors:
         raise SystemExit(1)

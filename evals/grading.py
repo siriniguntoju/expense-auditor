@@ -56,3 +56,30 @@ def extraction_metrics(actual, expected):
         "fields": fields,
         "note": "Line-item extraction is not included in this field metric.",
     }
+
+
+def line_item_metrics(actual, expected):
+    """Exact normalized line-item lists; separate from the six core-field metric."""
+    from decimal import Decimal, InvalidOperation
+
+    correct = 0
+    for rid, truth in expected.items():
+        predicted = actual.get(rid, {}).get("items")
+        if not isinstance(predicted, list):
+            continue
+        try:
+
+            def normalize(items):
+                return [
+                    (" ".join(i["description"].casefold().split()), Decimal(str(i["amount"])))
+                    for i in items
+                ]
+
+            correct += normalize(predicted) == normalize(truth["items"])
+        except (KeyError, TypeError, InvalidOperation):
+            pass
+    return dict(
+        exact_receipts=correct,
+        total_receipts=len(expected),
+        accuracy=correct / len(expected) if expected else None,
+    )

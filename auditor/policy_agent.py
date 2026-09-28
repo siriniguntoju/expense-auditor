@@ -28,7 +28,11 @@ class CheckAgent(BaseAgent):
             result = await call(
                 session,
                 "check_policy",
-                dict(report=packet["report"], conversions=packet["conversions"]),
+                dict(
+                    report=packet["report"],
+                    conversions=packet["conversions"],
+                    receipts=packet["receipts"],
+                ),
             )
         yield Event(
             author=self.name, actions=EventActions(state_delta={"packet": dict(packet, **result)})

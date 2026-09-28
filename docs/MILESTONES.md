@@ -39,3 +39,18 @@ ADK 2.10.0 still supports `SequentialAgent` but emits a deprecation notice recom
 ## Known benchmark error
 
 The duplicate fingerprint uses normalized merchant + date + total + currency. Report 07 has two equal-value charges at the same merchant on the same day. They are labeled as split-charge review, but the fingerprint additionally flags a duplicate. This is one false positive. It illustrates why duplicate detection needs receipt identifiers and human review; the benchmark retains the case and error rather than changing labels to inflate precision.
+
+## Full-version extension — September 27, 2026
+
+The initial MVP description above records the first build. The extension adds 200 receipts / 50 reports, live and cached Gemini intake, resumable extraction measurement, per-category/daily/holiday checks, optional advisory judgment through an ADK audit agent, PostgreSQL storage in Compose, and a real human timing-study screen. Updated scope and results are in the README.
+
+New important files:
+
+- `auditor/live.py`: explicit free-tier opt-in, bounded Gemini calls and real-output cache. A cache key binds image bytes, model and prompt version. Cache misses never use labels.
+- `auditor/judgment.py`: typed optional advice for ambiguous findings. This does not remove deterministic flags or authorize money movement.
+- `auditor/postgres.py`: narrow DB-API adapter so the same store supports PostgreSQL and local SQLite. PostgreSQL locks decision rows during review; SQLite uses an immediate transaction.
+- `auditor/study.py`, `web/src/Study.tsx`: server-timed human trials, anonymous participants, concealed case titles for manual review, order balancing and paired summaries.
+- `data/expand.py`: deterministic expansion and image variation; deliberately repeated scenario families must not be called an independent held-out benchmark.
+- `tests/test_full_version.py`, `tests/test_postgres.py`: cache/failure boundaries, study calculations using an isolated test database, expanded rules and optional real PostgreSQL verification. Test durations never enter participant measurements.
+
+Measured offline extension: 50/50 workflows, 35/35 seeded issues, five false positives (87.5% precision), and 0/15 clean reports flagged. The live Gemini benchmark completed 2/200 receipts with 12/12 core fields and both item lists matching, then encountered HTTP 503. These two real cached receipts also passed the complete A2A/policy/audit review pipeline. Completion and error codes are published separately; no full-suite extraction accuracy is claimed. Human timing is pending participant trials. The original 94% and 15 → 3 minute targets remain targets. PostgreSQL/agent integration has been exercised in Docker; public deployment and production hardening remain outside this portfolio scope.

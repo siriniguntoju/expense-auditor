@@ -25,8 +25,8 @@ class Receipt(Strict):
 
 
 class Expense(Strict):
-    id: str = Field(pattern=r"^e\d{2}$")
-    receipt_id: str | None = Field(default=None, pattern=r"^r\d{2}$")
+    id: str = Field(pattern=r"^e\d{2,3}$")
+    receipt_id: str | None = Field(default=None, pattern=r"^r\d{2,3}$")
     amount: Decimal = Field(gt=0, le=1000000, decimal_places=2)
     currency: Literal["USD", "EUR", "GBP"]
     category: Literal["meals", "transport", "lodging", "alcohol"]

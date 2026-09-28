@@ -8,7 +8,7 @@ from evals.grading import extraction_metrics, flag_metrics
 def test_fixtures():
     receipts = json.loads(Path("data/labels/receipts.json").read_text())
     reports = json.loads(Path("data/reports.json").read_text())
-    assert len(receipts) == 20 and len(reports) == 10
+    assert len(receipts) == 200 and len(reports) == 50
     for id, r in receipts.items():
         Receipt.model_validate(r)
         assert (Path("data/receipts") / (id + ".png")).exists()

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
+import Study from "./Study";
 type Expense = {
   id: string;
   receipt_id: string | null;
@@ -22,6 +23,14 @@ type Flag = {
   evidence: Record<string, unknown>;
 };
 type Packet = {
+  judgment?: {
+    status: string;
+    advice?: {
+      assessment: string;
+      explanation: string;
+      question_for_reviewer: string;
+    };
+  };
   report: Report;
   flags: Flag[];
   intake_mode: string;
@@ -55,6 +64,13 @@ async function api<T>(url: string, options?: RequestInit): Promise<T> {
   return r.json();
 }
 function App() {
+  const [study, setStudy] = useState(false),
+    [mode, setMode] = useState("fixture_replay");
+  const [config, setConfig] = useState({
+    live_enabled: false,
+    receipts: 200,
+    reports: 50,
+  });
   const [reports, setReports] = useState<Report[]>([]),
     [selected, setSelected] = useState("report-01");
   const [run, setRun] = useState<Run | null>(null),
@@ -68,6 +84,7 @@ function App() {
   useEffect(() => {
     Promise.all([
       api<Report[]>("/api/reports").then(setReports),
+      api<typeof config>("/api/health").then(setConfig),
       refresh(),
     ]).catch((e) => setError(e.message));
   }, []);
@@ -79,7 +96,12 @@ function App() {
       const r = await api<Run>("/api/runs/" + id);
       setRun(r);
       if (r.status === "failed")
-        setError("Analysis failed. Check the local agent services and retry.");
+        setError(
+          String(
+            r.events?.find((e) => e.kind === "RUN_ERROR")?.body.message ||
+              "Analysis failed. Check the local agent services and retry.",
+          ),
+        );
       setSelected(r.report_id);
       setEvents(
         (r.events || [])
@@ -108,7 +130,7 @@ function App() {
           messages: [],
           tools: [],
           context: [],
-          forwardedProps: { report_id: selected },
+          forwardedProps: { report_id: selected, mode },
         }),
       });
       if (!response.ok || !response.body)
@@ -173,6 +195,7 @@ function App() {
   }
   const report = run?.packet?.report || reports.find((r) => r.id === selected);
   const pending = run?.status === "pending_review";
+  if (study) return <Study onClose={() => setStudy(false)} />;
   return (
     <div className="shell">
       <aside>
@@ -181,7 +204,9 @@ function App() {
         </div>
         <p className="eyebrow">REVIEW WORKSPACE</p>
         <h2>Expense reports</h2>
-        <p className="muted">10 synthetic cases · 20 receipts</p>
+        <p className="muted">
+          {reports.length} synthetic cases · {config.receipts} receipts
+        </p>
         <nav>
           {reports.map((r) => (
             <button
@@ -217,11 +242,35 @@ function App() {
               Evidence first. A person makes the final decision.
             </p>
           </div>
-          <span className="pill">Offline demo · $0 model calls</span>
+          <button disabled={busy} onClick={() => setStudy(true)}>
+            Timed review study
+          </button>
         </header>
         <div className="notice">
-          <b>Fixture replay</b> Receipt fields come from synthetic labels. This
-          demo measures the checking workflow, not Gemini extraction accuracy.
+          <b>{run?.packet?.intake_mode || mode}</b>{" "}
+          {mode === "fixture_replay"
+            ? "Synthetic label replay measures the checking workflow, not extraction accuracy."
+            : mode === "gemini_cached"
+              ? "Reuses saved real Gemini extractions; missing cache entries fail without making calls."
+              : "Gemini reads synthetic receipt images. Requires a confirmed free-tier project; stops on provider errors."}
+          <label className="mode-picker">
+            Extraction mode{" "}
+            <select
+              disabled={busy}
+              value={mode}
+              onChange={(e) => {
+                setMode(e.target.value);
+                setRun(null);
+                setEvents([]);
+              }}
+            >
+              <option value="fixture_replay">Offline fixture replay</option>
+              <option value="gemini_cached">Cached Gemini results</option>
+              <option value="gemini_live" disabled={!config.live_enabled}>
+                Live Gemini {config.live_enabled ? "" : "(not enabled)"}
+              </option>
+            </select>
+          </label>
         </div>
         {error && (
           <div role="alert" className="error">
@@ -293,6 +342,13 @@ function App() {
                   alt={"Synthetic receipt " + receipt}
                 />
               </div>
+            )}
+            {run?.packet?.judgment?.advice && (
+              <article className="finding review">
+                <b>Model advisory · human decision required</b>
+                <p>{run.packet.judgment.advice.explanation}</p>
+                <p>{run.packet.judgment.advice.question_for_reviewer}</p>
+              </article>
             )}
             <h3 className="spaced">
               Findings{" "}
@@ -415,8 +471,8 @@ function App() {
         <section className="card history">
           <h3>Recent runs</h3>
           <p className="muted">
-            Saved locally in SQLite. Open a run to replay its evidence and
-            decisions.
+            Saved in the configured database. Open a run to replay its evidence
+            and decisions.
           </p>
           <div>
             {history.map((r) => (
@@ -430,7 +486,7 @@ function App() {
           </div>
         </section>
         <footer>
-          Synthetic data only · Policy v1 · Fixed demonstration exchange rates ·
+          Synthetic data only · Policy v2 · Fixed demonstration exchange rates ·
           Local development app
         </footer>
       </main>

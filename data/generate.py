@@ -100,7 +100,7 @@ def generate():
             r["date"],
             "Receipt " + id,
             "-" * 31,
-            "Business purchase",
+            r["items"][0]["description"],
             "Subtotal " + r["items"][0]["amount"],
             "Tax " + r["tax"],
             "TOTAL " + r["total"] + " " + r["currency"],

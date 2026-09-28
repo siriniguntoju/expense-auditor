@@ -10,15 +10,22 @@ def now():
 
 class Store:
     def __init__(self, path):
-        Path(path).parent.mkdir(parents=True, exist_ok=True)
+        if not str(path).startswith("postgresql://"):
+            Path(path).parent.mkdir(parents=True, exist_ok=True)
         self.path = str(path)
         with self.connect() as db:
             db.executescript("""
             CREATE TABLE IF NOT EXISTS runs(id TEXT PRIMARY KEY, report_id TEXT NOT NULL, status TEXT NOT NULL, packet TEXT, created TEXT NOT NULL);
             CREATE TABLE IF NOT EXISTS events(seq INTEGER PRIMARY KEY AUTOINCREMENT, run_id TEXT NOT NULL, kind TEXT NOT NULL, body TEXT NOT NULL, created TEXT NOT NULL);
+            CREATE TABLE IF NOT EXISTS trials(id TEXT PRIMARY KEY, participant TEXT NOT NULL, report_id TEXT NOT NULL, condition TEXT NOT NULL, started TEXT NOT NULL, finished TEXT, seconds REAL, decision TEXT, mode TEXT NOT NULL);
+            CREATE UNIQUE INDEX IF NOT EXISTS trial_assignment ON trials(participant,report_id,condition);
             """)
 
     def connect(self):
+        if self.path.startswith("postgresql://"):
+            from auditor.postgres import Connection
+
+            return Connection(self.path)
         db = sqlite3.connect(self.path, timeout=10)
         db.row_factory = sqlite3.Row
         return db
@@ -76,7 +83,10 @@ class Store:
     def review(self, run_id, action, comment):
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")
-            row = db.execute("SELECT status FROM runs WHERE id=?", (run_id,)).fetchone()
+            sql = "SELECT status FROM runs WHERE id=?"
+            if self.path.startswith("postgresql://"):
+                sql += " FOR UPDATE"
+            row = db.execute(sql, (run_id,)).fetchone()
             if not row:
                 raise KeyError(run_id)
             if row["status"] not in {"pending_review", "approved", "rejected"}:

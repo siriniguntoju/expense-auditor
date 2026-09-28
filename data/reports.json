@@ -228,5 +228,1565 @@
         "justification": "Fictional business travel"
       }
     ]
+  },
+  {
+    "id": "report-11",
+    "employee": "Employee Example 11",
+    "title": "City visit \u00b7 clean \u00b7 11",
+    "expenses": [
+      {
+        "id": "e21",
+        "receipt_id": "r21",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e22",
+        "receipt_id": "r22",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e23",
+        "receipt_id": "r23",
+        "amount": "13",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e24",
+        "receipt_id": "r24",
+        "amount": "14",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-12",
+    "employee": "Employee Example 12",
+    "title": "Client visit \u00b7 clean \u00b7 12",
+    "expenses": [
+      {
+        "id": "e25",
+        "receipt_id": "r25",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e26",
+        "receipt_id": "r26",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e27",
+        "receipt_id": "r27",
+        "amount": "14",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e28",
+        "receipt_id": "r28",
+        "amount": "15",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-13",
+    "employee": "Employee Example 13",
+    "title": "Meal over limit \u00b7 13",
+    "expenses": [
+      {
+        "id": "e29",
+        "receipt_id": "r29",
+        "amount": "90.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e30",
+        "receipt_id": "r30",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e31",
+        "receipt_id": "r31",
+        "amount": "15",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e32",
+        "receipt_id": "r32",
+        "amount": "16",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-14",
+    "employee": "Employee Example 14",
+    "title": "Receipt missing \u00b7 14",
+    "expenses": [
+      {
+        "id": "e33",
+        "receipt_id": null,
+        "amount": "30.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e34",
+        "receipt_id": "r34",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e35",
+        "receipt_id": "r35",
+        "amount": "16",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e36",
+        "receipt_id": "r36",
+        "amount": "17",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-15",
+    "employee": "Employee Example 15",
+    "title": "Disallowed purchase \u00b7 15",
+    "expenses": [
+      {
+        "id": "e37",
+        "receipt_id": "r37",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "alcohol",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e38",
+        "receipt_id": "r38",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e39",
+        "receipt_id": "r39",
+        "amount": "17",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e40",
+        "receipt_id": "r40",
+        "amount": "18",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-16",
+    "employee": "Employee Example 16",
+    "title": "Duplicate expense \u00b7 16",
+    "expenses": [
+      {
+        "id": "e41",
+        "receipt_id": "r41",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e42",
+        "receipt_id": "r42",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e43",
+        "receipt_id": "r43",
+        "amount": "18",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e44",
+        "receipt_id": "r44",
+        "amount": "19",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-17",
+    "employee": "Employee Example 17",
+    "title": "Possible split charge \u00b7 17",
+    "expenses": [
+      {
+        "id": "e45",
+        "receipt_id": "r45",
+        "amount": "40.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e46",
+        "receipt_id": "r46",
+        "amount": "40.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e47",
+        "receipt_id": "r47",
+        "amount": "19",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e48",
+        "receipt_id": "r48",
+        "amount": "20",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-18",
+    "employee": "Employee Example 18",
+    "title": "Weekend purchase \u00b7 18",
+    "expenses": [
+      {
+        "id": "e49",
+        "receipt_id": "r49",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e50",
+        "receipt_id": "r50",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e51",
+        "receipt_id": "r51",
+        "amount": "20",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e52",
+        "receipt_id": "r52",
+        "amount": "21",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-19",
+    "employee": "Employee Example 19",
+    "title": "Claim mismatch \u00b7 19",
+    "expenses": [
+      {
+        "id": "e53",
+        "receipt_id": "r53",
+        "amount": "60.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e54",
+        "receipt_id": "r54",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e55",
+        "receipt_id": "r55",
+        "amount": "21",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e56",
+        "receipt_id": "r56",
+        "amount": "22",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-20",
+    "employee": "Employee Example 20",
+    "title": "Currency conversion \u00b7 clean \u00b7 20",
+    "expenses": [
+      {
+        "id": "e57",
+        "receipt_id": "r57",
+        "amount": "20.00",
+        "currency": "EUR",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e58",
+        "receipt_id": "r58",
+        "amount": "15.00",
+        "currency": "GBP",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e59",
+        "receipt_id": "r59",
+        "amount": "22",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e60",
+        "receipt_id": "r60",
+        "amount": "23",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-21",
+    "employee": "Employee Example 21",
+    "title": "City visit \u00b7 clean \u00b7 21",
+    "expenses": [
+      {
+        "id": "e61",
+        "receipt_id": "r61",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e62",
+        "receipt_id": "r62",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e63",
+        "receipt_id": "r63",
+        "amount": "23",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e64",
+        "receipt_id": "r64",
+        "amount": "12",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-22",
+    "employee": "Employee Example 22",
+    "title": "Client visit \u00b7 clean \u00b7 22",
+    "expenses": [
+      {
+        "id": "e65",
+        "receipt_id": "r65",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e66",
+        "receipt_id": "r66",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e67",
+        "receipt_id": "r67",
+        "amount": "12",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e68",
+        "receipt_id": "r68",
+        "amount": "13",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-23",
+    "employee": "Employee Example 23",
+    "title": "Meal over limit \u00b7 23",
+    "expenses": [
+      {
+        "id": "e69",
+        "receipt_id": "r69",
+        "amount": "90.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e70",
+        "receipt_id": "r70",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e71",
+        "receipt_id": "r71",
+        "amount": "13",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e72",
+        "receipt_id": "r72",
+        "amount": "14",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-24",
+    "employee": "Employee Example 24",
+    "title": "Receipt missing \u00b7 24",
+    "expenses": [
+      {
+        "id": "e73",
+        "receipt_id": null,
+        "amount": "30.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e74",
+        "receipt_id": "r74",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e75",
+        "receipt_id": "r75",
+        "amount": "14",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e76",
+        "receipt_id": "r76",
+        "amount": "15",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-25",
+    "employee": "Employee Example 25",
+    "title": "Disallowed purchase \u00b7 25",
+    "expenses": [
+      {
+        "id": "e77",
+        "receipt_id": "r77",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "alcohol",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e78",
+        "receipt_id": "r78",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e79",
+        "receipt_id": "r79",
+        "amount": "15",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e80",
+        "receipt_id": "r80",
+        "amount": "16",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-26",
+    "employee": "Employee Example 26",
+    "title": "Duplicate expense \u00b7 26",
+    "expenses": [
+      {
+        "id": "e81",
+        "receipt_id": "r81",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e82",
+        "receipt_id": "r82",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e83",
+        "receipt_id": "r83",
+        "amount": "16",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e84",
+        "receipt_id": "r84",
+        "amount": "17",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-27",
+    "employee": "Employee Example 27",
+    "title": "Possible split charge \u00b7 27",
+    "expenses": [
+      {
+        "id": "e85",
+        "receipt_id": "r85",
+        "amount": "40.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e86",
+        "receipt_id": "r86",
+        "amount": "40.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e87",
+        "receipt_id": "r87",
+        "amount": "17",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e88",
+        "receipt_id": "r88",
+        "amount": "18",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-28",
+    "employee": "Employee Example 28",
+    "title": "Weekend purchase \u00b7 28",
+    "expenses": [
+      {
+        "id": "e89",
+        "receipt_id": "r89",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e90",
+        "receipt_id": "r90",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e91",
+        "receipt_id": "r91",
+        "amount": "18",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e92",
+        "receipt_id": "r92",
+        "amount": "19",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-29",
+    "employee": "Employee Example 29",
+    "title": "Claim mismatch \u00b7 29",
+    "expenses": [
+      {
+        "id": "e93",
+        "receipt_id": "r93",
+        "amount": "60.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e94",
+        "receipt_id": "r94",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e95",
+        "receipt_id": "r95",
+        "amount": "19",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e96",
+        "receipt_id": "r96",
+        "amount": "20",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-30",
+    "employee": "Employee Example 30",
+    "title": "Currency conversion \u00b7 clean \u00b7 30",
+    "expenses": [
+      {
+        "id": "e97",
+        "receipt_id": "r97",
+        "amount": "20.00",
+        "currency": "EUR",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e98",
+        "receipt_id": "r98",
+        "amount": "15.00",
+        "currency": "GBP",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e99",
+        "receipt_id": "r99",
+        "amount": "20",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e100",
+        "receipt_id": "r100",
+        "amount": "21",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-31",
+    "employee": "Employee Example 31",
+    "title": "City visit \u00b7 clean \u00b7 31",
+    "expenses": [
+      {
+        "id": "e101",
+        "receipt_id": "r101",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e102",
+        "receipt_id": "r102",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e103",
+        "receipt_id": "r103",
+        "amount": "21",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e104",
+        "receipt_id": "r104",
+        "amount": "22",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-32",
+    "employee": "Employee Example 32",
+    "title": "Client visit \u00b7 clean \u00b7 32",
+    "expenses": [
+      {
+        "id": "e105",
+        "receipt_id": "r105",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e106",
+        "receipt_id": "r106",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e107",
+        "receipt_id": "r107",
+        "amount": "22",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e108",
+        "receipt_id": "r108",
+        "amount": "23",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-33",
+    "employee": "Employee Example 33",
+    "title": "Meal over limit \u00b7 33",
+    "expenses": [
+      {
+        "id": "e109",
+        "receipt_id": "r109",
+        "amount": "90.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e110",
+        "receipt_id": "r110",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e111",
+        "receipt_id": "r111",
+        "amount": "23",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e112",
+        "receipt_id": "r112",
+        "amount": "12",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-34",
+    "employee": "Employee Example 34",
+    "title": "Receipt missing \u00b7 34",
+    "expenses": [
+      {
+        "id": "e113",
+        "receipt_id": null,
+        "amount": "30.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e114",
+        "receipt_id": "r114",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e115",
+        "receipt_id": "r115",
+        "amount": "12",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e116",
+        "receipt_id": "r116",
+        "amount": "13",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-35",
+    "employee": "Employee Example 35",
+    "title": "Disallowed purchase \u00b7 35",
+    "expenses": [
+      {
+        "id": "e117",
+        "receipt_id": "r117",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "alcohol",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e118",
+        "receipt_id": "r118",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e119",
+        "receipt_id": "r119",
+        "amount": "13",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e120",
+        "receipt_id": "r120",
+        "amount": "14",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-36",
+    "employee": "Employee Example 36",
+    "title": "Duplicate expense \u00b7 36",
+    "expenses": [
+      {
+        "id": "e121",
+        "receipt_id": "r121",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e122",
+        "receipt_id": "r122",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e123",
+        "receipt_id": "r123",
+        "amount": "14",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e124",
+        "receipt_id": "r124",
+        "amount": "15",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-37",
+    "employee": "Employee Example 37",
+    "title": "Possible split charge \u00b7 37",
+    "expenses": [
+      {
+        "id": "e125",
+        "receipt_id": "r125",
+        "amount": "40.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e126",
+        "receipt_id": "r126",
+        "amount": "40.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e127",
+        "receipt_id": "r127",
+        "amount": "15",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e128",
+        "receipt_id": "r128",
+        "amount": "16",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-38",
+    "employee": "Employee Example 38",
+    "title": "Weekend purchase \u00b7 38",
+    "expenses": [
+      {
+        "id": "e129",
+        "receipt_id": "r129",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e130",
+        "receipt_id": "r130",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e131",
+        "receipt_id": "r131",
+        "amount": "16",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e132",
+        "receipt_id": "r132",
+        "amount": "17",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-39",
+    "employee": "Employee Example 39",
+    "title": "Claim mismatch \u00b7 39",
+    "expenses": [
+      {
+        "id": "e133",
+        "receipt_id": "r133",
+        "amount": "60.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e134",
+        "receipt_id": "r134",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e135",
+        "receipt_id": "r135",
+        "amount": "17",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e136",
+        "receipt_id": "r136",
+        "amount": "18",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-40",
+    "employee": "Employee Example 40",
+    "title": "Currency conversion \u00b7 clean \u00b7 40",
+    "expenses": [
+      {
+        "id": "e137",
+        "receipt_id": "r137",
+        "amount": "20.00",
+        "currency": "EUR",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e138",
+        "receipt_id": "r138",
+        "amount": "15.00",
+        "currency": "GBP",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e139",
+        "receipt_id": "r139",
+        "amount": "18",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e140",
+        "receipt_id": "r140",
+        "amount": "19",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-41",
+    "employee": "Employee Example 41",
+    "title": "City visit \u00b7 clean \u00b7 41",
+    "expenses": [
+      {
+        "id": "e141",
+        "receipt_id": "r141",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e142",
+        "receipt_id": "r142",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e143",
+        "receipt_id": "r143",
+        "amount": "19",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e144",
+        "receipt_id": "r144",
+        "amount": "20",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-42",
+    "employee": "Employee Example 42",
+    "title": "Client visit \u00b7 clean \u00b7 42",
+    "expenses": [
+      {
+        "id": "e145",
+        "receipt_id": "r145",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e146",
+        "receipt_id": "r146",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e147",
+        "receipt_id": "r147",
+        "amount": "20",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e148",
+        "receipt_id": "r148",
+        "amount": "21",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-43",
+    "employee": "Employee Example 43",
+    "title": "Meal over limit \u00b7 43",
+    "expenses": [
+      {
+        "id": "e149",
+        "receipt_id": "r149",
+        "amount": "90.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e150",
+        "receipt_id": "r150",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e151",
+        "receipt_id": "r151",
+        "amount": "21",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e152",
+        "receipt_id": "r152",
+        "amount": "22",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-44",
+    "employee": "Employee Example 44",
+    "title": "Receipt missing \u00b7 44",
+    "expenses": [
+      {
+        "id": "e153",
+        "receipt_id": null,
+        "amount": "30.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e154",
+        "receipt_id": "r154",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e155",
+        "receipt_id": "r155",
+        "amount": "22",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e156",
+        "receipt_id": "r156",
+        "amount": "23",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-45",
+    "employee": "Employee Example 45",
+    "title": "Disallowed purchase \u00b7 45",
+    "expenses": [
+      {
+        "id": "e157",
+        "receipt_id": "r157",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "alcohol",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e158",
+        "receipt_id": "r158",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e159",
+        "receipt_id": "r159",
+        "amount": "23",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e160",
+        "receipt_id": "r160",
+        "amount": "12",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-46",
+    "employee": "Employee Example 46",
+    "title": "Duplicate expense \u00b7 46",
+    "expenses": [
+      {
+        "id": "e161",
+        "receipt_id": "r161",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e162",
+        "receipt_id": "r162",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e163",
+        "receipt_id": "r163",
+        "amount": "12",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e164",
+        "receipt_id": "r164",
+        "amount": "13",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-47",
+    "employee": "Employee Example 47",
+    "title": "Possible split charge \u00b7 47",
+    "expenses": [
+      {
+        "id": "e165",
+        "receipt_id": "r165",
+        "amount": "40.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e166",
+        "receipt_id": "r166",
+        "amount": "40.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e167",
+        "receipt_id": "r167",
+        "amount": "13",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e168",
+        "receipt_id": "r168",
+        "amount": "14",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-48",
+    "employee": "Employee Example 48",
+    "title": "Weekend purchase \u00b7 48",
+    "expenses": [
+      {
+        "id": "e169",
+        "receipt_id": "r169",
+        "amount": "20.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e170",
+        "receipt_id": "r170",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e171",
+        "receipt_id": "r171",
+        "amount": "14",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e172",
+        "receipt_id": "r172",
+        "amount": "15",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-49",
+    "employee": "Employee Example 49",
+    "title": "Claim mismatch \u00b7 49",
+    "expenses": [
+      {
+        "id": "e173",
+        "receipt_id": "r173",
+        "amount": "60.00",
+        "currency": "USD",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e174",
+        "receipt_id": "r174",
+        "amount": "15.00",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e175",
+        "receipt_id": "r175",
+        "amount": "15",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e176",
+        "receipt_id": "r176",
+        "amount": "16",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
+  },
+  {
+    "id": "report-50",
+    "employee": "Employee Example 50",
+    "title": "Currency conversion \u00b7 clean \u00b7 50",
+    "expenses": [
+      {
+        "id": "e177",
+        "receipt_id": "r177",
+        "amount": "20.00",
+        "currency": "EUR",
+        "category": "meals",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e178",
+        "receipt_id": "r178",
+        "amount": "15.00",
+        "currency": "GBP",
+        "category": "transport",
+        "justification": "Fictional business travel"
+      },
+      {
+        "id": "e179",
+        "receipt_id": "r179",
+        "amount": "16",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      },
+      {
+        "id": "e180",
+        "receipt_id": "r180",
+        "amount": "17",
+        "currency": "USD",
+        "category": "transport",
+        "justification": "Synthetic business trip"
+      }
+    ]
   }
 ]

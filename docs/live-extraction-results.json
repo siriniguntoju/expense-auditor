@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-28T00:34:34.041751+00:00",
+  "model": "gemini-3.8-flash",
+  "selected": 200,
+  "completed": 2,
+  "new_requests_this_run": 3,
+  "errors": {
+    "r03": {
+      "type": "ServerError",
+      "code": 503
+    }
+  },
+  "metrics": {
+    "correct_fields": 12,
+    "total_fields": 1200,
+    "accuracy": 0.01,
+    "fields": [
+      "merchant",
+      "date",
+      "total",
+      "currency",
+      "category",
+      "tax"
+    ],
+    "note": "Line-item extraction is not included in this field metric."
+  },
+  "complete": false,
+  "observed_completed_field_accuracy": 1.0,
+  "line_items": {
+    "exact_receipts": 2,
+    "total_receipts": 200,
+    "accuracy": 0.01
+  },
+  "note": "Missing/failed/unattempted selected receipts count as incorrect. Cached real model outputs are reused. No fixture fallback."
+}

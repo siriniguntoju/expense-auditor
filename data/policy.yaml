@@ -1,5 +1,9 @@
-version: synthetic-policy-v1
+version: synthetic-policy-v2
 base_currency: USD
 meal_limit: '75.00'
 receipt_required_above: '25.00'
 disallowed_categories: [alcohol]
+
+meal_daily_limit: '100.00'
+category_limits: {transport: '150.00', lodging: '250.00'}
+holidays: ['2026-09-07']

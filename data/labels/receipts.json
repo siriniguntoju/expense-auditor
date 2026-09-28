@@ -278,5 +278,2525 @@
         "amount": "13.00"
       }
     ]
+  },
+  "r21": {
+    "merchant": "Example Cafe 1 / branch 11",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r22": {
+    "merchant": "Example Transit 2 / branch 11",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r23": {
+    "merchant": "Example Transit 23",
+    "date": "2026-09-23",
+    "total": "13",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "12"
+      }
+    ]
+  },
+  "r24": {
+    "merchant": "Example Transit 24",
+    "date": "2026-09-23",
+    "total": "14",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "13"
+      }
+    ]
+  },
+  "r25": {
+    "merchant": "Example Cafe 3 / branch 12",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r26": {
+    "merchant": "Example Transit 4 / branch 12",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r27": {
+    "merchant": "Example Transit 27",
+    "date": "2026-09-23",
+    "total": "14",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "13"
+      }
+    ]
+  },
+  "r28": {
+    "merchant": "Example Transit 28",
+    "date": "2026-09-23",
+    "total": "15",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "14"
+      }
+    ]
+  },
+  "r29": {
+    "merchant": "Example Cafe 5 / branch 13",
+    "date": "2026-09-22",
+    "total": "90.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "88.00"
+      }
+    ]
+  },
+  "r30": {
+    "merchant": "Example Transit 6 / branch 13",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r31": {
+    "merchant": "Example Transit 31",
+    "date": "2026-09-23",
+    "total": "15",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "14"
+      }
+    ]
+  },
+  "r32": {
+    "merchant": "Example Transit 32",
+    "date": "2026-09-23",
+    "total": "16",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "15"
+      }
+    ]
+  },
+  "r33": {
+    "merchant": "Example Cafe 7 / branch 14",
+    "date": "2026-09-22",
+    "total": "30.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "28.00"
+      }
+    ]
+  },
+  "r34": {
+    "merchant": "Example Transit 8 / branch 14",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r35": {
+    "merchant": "Example Transit 35",
+    "date": "2026-09-23",
+    "total": "16",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "15"
+      }
+    ]
+  },
+  "r36": {
+    "merchant": "Example Transit 36",
+    "date": "2026-09-23",
+    "total": "17",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "16"
+      }
+    ]
+  },
+  "r37": {
+    "merchant": "Example Cafe 9 / branch 15",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "alcohol",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r38": {
+    "merchant": "Example Transit 10 / branch 15",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r39": {
+    "merchant": "Example Transit 39",
+    "date": "2026-09-23",
+    "total": "17",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "16"
+      }
+    ]
+  },
+  "r40": {
+    "merchant": "Example Transit 40",
+    "date": "2026-09-23",
+    "total": "18",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "17"
+      }
+    ]
+  },
+  "r41": {
+    "merchant": "Example Cafe 11 / branch 16",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r42": {
+    "merchant": "Example Cafe 11 / branch 16",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r43": {
+    "merchant": "Example Transit 43",
+    "date": "2026-09-23",
+    "total": "18",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "17"
+      }
+    ]
+  },
+  "r44": {
+    "merchant": "Example Transit 44",
+    "date": "2026-09-23",
+    "total": "19",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "18"
+      }
+    ]
+  },
+  "r45": {
+    "merchant": "Example Split Cafe / branch 17",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r46": {
+    "merchant": "Example Split Cafe / branch 17",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r47": {
+    "merchant": "Example Transit 47",
+    "date": "2026-09-23",
+    "total": "19",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "18"
+      }
+    ]
+  },
+  "r48": {
+    "merchant": "Example Transit 48",
+    "date": "2026-09-23",
+    "total": "20",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "19"
+      }
+    ]
+  },
+  "r49": {
+    "merchant": "Example Cafe 15 / branch 18",
+    "date": "2026-09-26",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r50": {
+    "merchant": "Example Transit 16 / branch 18",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r51": {
+    "merchant": "Example Transit 51",
+    "date": "2026-09-23",
+    "total": "20",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "19"
+      }
+    ]
+  },
+  "r52": {
+    "merchant": "Example Transit 52",
+    "date": "2026-09-23",
+    "total": "21",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "20"
+      }
+    ]
+  },
+  "r53": {
+    "merchant": "Example Cafe 17 / branch 19",
+    "date": "2026-09-22",
+    "total": "45.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "43.00"
+      }
+    ]
+  },
+  "r54": {
+    "merchant": "Example Transit 18 / branch 19",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r55": {
+    "merchant": "Example Transit 55",
+    "date": "2026-09-23",
+    "total": "21",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "20"
+      }
+    ]
+  },
+  "r56": {
+    "merchant": "Example Transit 56",
+    "date": "2026-09-23",
+    "total": "22",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "21"
+      }
+    ]
+  },
+  "r57": {
+    "merchant": "Example Cafe 19 / branch 20",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "EUR",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r58": {
+    "merchant": "Example Transit 20 / branch 20",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "GBP",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r59": {
+    "merchant": "Example Transit 59",
+    "date": "2026-09-23",
+    "total": "22",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "21"
+      }
+    ]
+  },
+  "r60": {
+    "merchant": "Example Transit 60",
+    "date": "2026-09-23",
+    "total": "23",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "22"
+      }
+    ]
+  },
+  "r61": {
+    "merchant": "Example Cafe 1 / branch 21",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r62": {
+    "merchant": "Example Transit 2 / branch 21",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r63": {
+    "merchant": "Example Transit 63",
+    "date": "2026-09-23",
+    "total": "23",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "22"
+      }
+    ]
+  },
+  "r64": {
+    "merchant": "Example Transit 64",
+    "date": "2026-09-23",
+    "total": "12",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "11"
+      }
+    ]
+  },
+  "r65": {
+    "merchant": "Example Cafe 3 / branch 22",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r66": {
+    "merchant": "Example Transit 4 / branch 22",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r67": {
+    "merchant": "Example Transit 67",
+    "date": "2026-09-23",
+    "total": "12",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "11"
+      }
+    ]
+  },
+  "r68": {
+    "merchant": "Example Transit 68",
+    "date": "2026-09-23",
+    "total": "13",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "12"
+      }
+    ]
+  },
+  "r69": {
+    "merchant": "Example Cafe 5 / branch 23",
+    "date": "2026-09-22",
+    "total": "90.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "88.00"
+      }
+    ]
+  },
+  "r70": {
+    "merchant": "Example Transit 6 / branch 23",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r71": {
+    "merchant": "Example Transit 71",
+    "date": "2026-09-23",
+    "total": "13",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "12"
+      }
+    ]
+  },
+  "r72": {
+    "merchant": "Example Transit 72",
+    "date": "2026-09-23",
+    "total": "14",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "13"
+      }
+    ]
+  },
+  "r73": {
+    "merchant": "Example Cafe 7 / branch 24",
+    "date": "2026-09-22",
+    "total": "30.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "28.00"
+      }
+    ]
+  },
+  "r74": {
+    "merchant": "Example Transit 8 / branch 24",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r75": {
+    "merchant": "Example Transit 75",
+    "date": "2026-09-23",
+    "total": "14",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "13"
+      }
+    ]
+  },
+  "r76": {
+    "merchant": "Example Transit 76",
+    "date": "2026-09-23",
+    "total": "15",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "14"
+      }
+    ]
+  },
+  "r77": {
+    "merchant": "Example Cafe 9 / branch 25",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "alcohol",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r78": {
+    "merchant": "Example Transit 10 / branch 25",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r79": {
+    "merchant": "Example Transit 79",
+    "date": "2026-09-23",
+    "total": "15",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "14"
+      }
+    ]
+  },
+  "r80": {
+    "merchant": "Example Transit 80",
+    "date": "2026-09-23",
+    "total": "16",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "15"
+      }
+    ]
+  },
+  "r81": {
+    "merchant": "Example Cafe 11 / branch 26",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r82": {
+    "merchant": "Example Cafe 11 / branch 26",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r83": {
+    "merchant": "Example Transit 83",
+    "date": "2026-09-23",
+    "total": "16",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "15"
+      }
+    ]
+  },
+  "r84": {
+    "merchant": "Example Transit 84",
+    "date": "2026-09-23",
+    "total": "17",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "16"
+      }
+    ]
+  },
+  "r85": {
+    "merchant": "Example Split Cafe / branch 27",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r86": {
+    "merchant": "Example Split Cafe / branch 27",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r87": {
+    "merchant": "Example Transit 87",
+    "date": "2026-09-23",
+    "total": "17",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "16"
+      }
+    ]
+  },
+  "r88": {
+    "merchant": "Example Transit 88",
+    "date": "2026-09-23",
+    "total": "18",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "17"
+      }
+    ]
+  },
+  "r89": {
+    "merchant": "Example Cafe 15 / branch 28",
+    "date": "2026-09-26",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r90": {
+    "merchant": "Example Transit 16 / branch 28",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r91": {
+    "merchant": "Example Transit 91",
+    "date": "2026-09-23",
+    "total": "18",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "17"
+      }
+    ]
+  },
+  "r92": {
+    "merchant": "Example Transit 92",
+    "date": "2026-09-23",
+    "total": "19",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "18"
+      }
+    ]
+  },
+  "r93": {
+    "merchant": "Example Cafe 17 / branch 29",
+    "date": "2026-09-22",
+    "total": "45.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "43.00"
+      }
+    ]
+  },
+  "r94": {
+    "merchant": "Example Transit 18 / branch 29",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r95": {
+    "merchant": "Example Transit 95",
+    "date": "2026-09-23",
+    "total": "19",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "18"
+      }
+    ]
+  },
+  "r96": {
+    "merchant": "Example Transit 96",
+    "date": "2026-09-23",
+    "total": "20",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "19"
+      }
+    ]
+  },
+  "r97": {
+    "merchant": "Example Cafe 19 / branch 30",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "EUR",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r98": {
+    "merchant": "Example Transit 20 / branch 30",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "GBP",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r99": {
+    "merchant": "Example Transit 99",
+    "date": "2026-09-23",
+    "total": "20",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "19"
+      }
+    ]
+  },
+  "r100": {
+    "merchant": "Example Transit 100",
+    "date": "2026-09-23",
+    "total": "21",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "20"
+      }
+    ]
+  },
+  "r101": {
+    "merchant": "Example Cafe 1 / branch 31",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r102": {
+    "merchant": "Example Transit 2 / branch 31",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r103": {
+    "merchant": "Example Transit 103",
+    "date": "2026-09-23",
+    "total": "21",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "20"
+      }
+    ]
+  },
+  "r104": {
+    "merchant": "Example Transit 104",
+    "date": "2026-09-23",
+    "total": "22",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "21"
+      }
+    ]
+  },
+  "r105": {
+    "merchant": "Example Cafe 3 / branch 32",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r106": {
+    "merchant": "Example Transit 4 / branch 32",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r107": {
+    "merchant": "Example Transit 107",
+    "date": "2026-09-23",
+    "total": "22",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "21"
+      }
+    ]
+  },
+  "r108": {
+    "merchant": "Example Transit 108",
+    "date": "2026-09-23",
+    "total": "23",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "22"
+      }
+    ]
+  },
+  "r109": {
+    "merchant": "Example Cafe 5 / branch 33",
+    "date": "2026-09-22",
+    "total": "90.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "88.00"
+      }
+    ]
+  },
+  "r110": {
+    "merchant": "Example Transit 6 / branch 33",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r111": {
+    "merchant": "Example Transit 111",
+    "date": "2026-09-23",
+    "total": "23",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "22"
+      }
+    ]
+  },
+  "r112": {
+    "merchant": "Example Transit 112",
+    "date": "2026-09-23",
+    "total": "12",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "11"
+      }
+    ]
+  },
+  "r113": {
+    "merchant": "Example Cafe 7 / branch 34",
+    "date": "2026-09-22",
+    "total": "30.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "28.00"
+      }
+    ]
+  },
+  "r114": {
+    "merchant": "Example Transit 8 / branch 34",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r115": {
+    "merchant": "Example Transit 115",
+    "date": "2026-09-23",
+    "total": "12",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "11"
+      }
+    ]
+  },
+  "r116": {
+    "merchant": "Example Transit 116",
+    "date": "2026-09-23",
+    "total": "13",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "12"
+      }
+    ]
+  },
+  "r117": {
+    "merchant": "Example Cafe 9 / branch 35",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "alcohol",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r118": {
+    "merchant": "Example Transit 10 / branch 35",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r119": {
+    "merchant": "Example Transit 119",
+    "date": "2026-09-23",
+    "total": "13",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "12"
+      }
+    ]
+  },
+  "r120": {
+    "merchant": "Example Transit 120",
+    "date": "2026-09-23",
+    "total": "14",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "13"
+      }
+    ]
+  },
+  "r121": {
+    "merchant": "Example Cafe 11 / branch 36",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r122": {
+    "merchant": "Example Cafe 11 / branch 36",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r123": {
+    "merchant": "Example Transit 123",
+    "date": "2026-09-23",
+    "total": "14",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "13"
+      }
+    ]
+  },
+  "r124": {
+    "merchant": "Example Transit 124",
+    "date": "2026-09-23",
+    "total": "15",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "14"
+      }
+    ]
+  },
+  "r125": {
+    "merchant": "Example Split Cafe / branch 37",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r126": {
+    "merchant": "Example Split Cafe / branch 37",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r127": {
+    "merchant": "Example Transit 127",
+    "date": "2026-09-23",
+    "total": "15",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "14"
+      }
+    ]
+  },
+  "r128": {
+    "merchant": "Example Transit 128",
+    "date": "2026-09-23",
+    "total": "16",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "15"
+      }
+    ]
+  },
+  "r129": {
+    "merchant": "Example Cafe 15 / branch 38",
+    "date": "2026-09-26",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r130": {
+    "merchant": "Example Transit 16 / branch 38",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r131": {
+    "merchant": "Example Transit 131",
+    "date": "2026-09-23",
+    "total": "16",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "15"
+      }
+    ]
+  },
+  "r132": {
+    "merchant": "Example Transit 132",
+    "date": "2026-09-23",
+    "total": "17",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "16"
+      }
+    ]
+  },
+  "r133": {
+    "merchant": "Example Cafe 17 / branch 39",
+    "date": "2026-09-22",
+    "total": "45.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "43.00"
+      }
+    ]
+  },
+  "r134": {
+    "merchant": "Example Transit 18 / branch 39",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r135": {
+    "merchant": "Example Transit 135",
+    "date": "2026-09-23",
+    "total": "17",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "16"
+      }
+    ]
+  },
+  "r136": {
+    "merchant": "Example Transit 136",
+    "date": "2026-09-23",
+    "total": "18",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "17"
+      }
+    ]
+  },
+  "r137": {
+    "merchant": "Example Cafe 19 / branch 40",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "EUR",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r138": {
+    "merchant": "Example Transit 20 / branch 40",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "GBP",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r139": {
+    "merchant": "Example Transit 139",
+    "date": "2026-09-23",
+    "total": "18",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "17"
+      }
+    ]
+  },
+  "r140": {
+    "merchant": "Example Transit 140",
+    "date": "2026-09-23",
+    "total": "19",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "18"
+      }
+    ]
+  },
+  "r141": {
+    "merchant": "Example Cafe 1 / branch 41",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r142": {
+    "merchant": "Example Transit 2 / branch 41",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r143": {
+    "merchant": "Example Transit 143",
+    "date": "2026-09-23",
+    "total": "19",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "18"
+      }
+    ]
+  },
+  "r144": {
+    "merchant": "Example Transit 144",
+    "date": "2026-09-23",
+    "total": "20",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "19"
+      }
+    ]
+  },
+  "r145": {
+    "merchant": "Example Cafe 3 / branch 42",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r146": {
+    "merchant": "Example Transit 4 / branch 42",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r147": {
+    "merchant": "Example Transit 147",
+    "date": "2026-09-23",
+    "total": "20",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "19"
+      }
+    ]
+  },
+  "r148": {
+    "merchant": "Example Transit 148",
+    "date": "2026-09-23",
+    "total": "21",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "20"
+      }
+    ]
+  },
+  "r149": {
+    "merchant": "Example Cafe 5 / branch 43",
+    "date": "2026-09-22",
+    "total": "90.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "88.00"
+      }
+    ]
+  },
+  "r150": {
+    "merchant": "Example Transit 6 / branch 43",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r151": {
+    "merchant": "Example Transit 151",
+    "date": "2026-09-23",
+    "total": "21",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "20"
+      }
+    ]
+  },
+  "r152": {
+    "merchant": "Example Transit 152",
+    "date": "2026-09-23",
+    "total": "22",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "21"
+      }
+    ]
+  },
+  "r153": {
+    "merchant": "Example Cafe 7 / branch 44",
+    "date": "2026-09-22",
+    "total": "30.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "28.00"
+      }
+    ]
+  },
+  "r154": {
+    "merchant": "Example Transit 8 / branch 44",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r155": {
+    "merchant": "Example Transit 155",
+    "date": "2026-09-23",
+    "total": "22",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "21"
+      }
+    ]
+  },
+  "r156": {
+    "merchant": "Example Transit 156",
+    "date": "2026-09-23",
+    "total": "23",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "22"
+      }
+    ]
+  },
+  "r157": {
+    "merchant": "Example Cafe 9 / branch 45",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "alcohol",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r158": {
+    "merchant": "Example Transit 10 / branch 45",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r159": {
+    "merchant": "Example Transit 159",
+    "date": "2026-09-23",
+    "total": "23",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "22"
+      }
+    ]
+  },
+  "r160": {
+    "merchant": "Example Transit 160",
+    "date": "2026-09-23",
+    "total": "12",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "11"
+      }
+    ]
+  },
+  "r161": {
+    "merchant": "Example Cafe 11 / branch 46",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r162": {
+    "merchant": "Example Cafe 11 / branch 46",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r163": {
+    "merchant": "Example Transit 163",
+    "date": "2026-09-23",
+    "total": "12",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "11"
+      }
+    ]
+  },
+  "r164": {
+    "merchant": "Example Transit 164",
+    "date": "2026-09-23",
+    "total": "13",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "12"
+      }
+    ]
+  },
+  "r165": {
+    "merchant": "Example Split Cafe / branch 47",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r166": {
+    "merchant": "Example Split Cafe / branch 47",
+    "date": "2026-09-22",
+    "total": "40.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "38.00"
+      }
+    ]
+  },
+  "r167": {
+    "merchant": "Example Transit 167",
+    "date": "2026-09-23",
+    "total": "13",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "12"
+      }
+    ]
+  },
+  "r168": {
+    "merchant": "Example Transit 168",
+    "date": "2026-09-23",
+    "total": "14",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "13"
+      }
+    ]
+  },
+  "r169": {
+    "merchant": "Example Cafe 15 / branch 48",
+    "date": "2026-09-26",
+    "total": "20.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r170": {
+    "merchant": "Example Transit 16 / branch 48",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r171": {
+    "merchant": "Example Transit 171",
+    "date": "2026-09-23",
+    "total": "14",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "13"
+      }
+    ]
+  },
+  "r172": {
+    "merchant": "Example Transit 172",
+    "date": "2026-09-23",
+    "total": "15",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "14"
+      }
+    ]
+  },
+  "r173": {
+    "merchant": "Example Cafe 17 / branch 49",
+    "date": "2026-09-22",
+    "total": "45.00",
+    "currency": "USD",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "43.00"
+      }
+    ]
+  },
+  "r174": {
+    "merchant": "Example Transit 18 / branch 49",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r175": {
+    "merchant": "Example Transit 175",
+    "date": "2026-09-23",
+    "total": "15",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "14"
+      }
+    ]
+  },
+  "r176": {
+    "merchant": "Example Transit 176",
+    "date": "2026-09-23",
+    "total": "16",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "15"
+      }
+    ]
+  },
+  "r177": {
+    "merchant": "Example Cafe 19 / branch 50",
+    "date": "2026-09-22",
+    "total": "20.00",
+    "currency": "EUR",
+    "category": "meals",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "18.00"
+      }
+    ]
+  },
+  "r178": {
+    "merchant": "Example Transit 20 / branch 50",
+    "date": "2026-09-22",
+    "total": "15.00",
+    "currency": "GBP",
+    "category": "transport",
+    "tax": "2.00",
+    "items": [
+      {
+        "description": "Synthetic business purchase",
+        "amount": "13.00"
+      }
+    ]
+  },
+  "r179": {
+    "merchant": "Example Transit 179",
+    "date": "2026-09-23",
+    "total": "16",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "15"
+      }
+    ]
+  },
+  "r180": {
+    "merchant": "Example Transit 180",
+    "date": "2026-09-23",
+    "total": "17",
+    "currency": "USD",
+    "category": "transport",
+    "tax": "1.00",
+    "items": [
+      {
+        "description": "Train ticket",
+        "amount": "16"
+      }
+    ]
+  },
+  "r181": {
+    "merchant": "Example Hotel 181",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "EUR",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r182": {
+    "merchant": "Example Hotel 182",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "GBP",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r183": {
+    "merchant": "Example Hotel 183",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "USD",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r184": {
+    "merchant": "Example Hotel 184",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "EUR",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r185": {
+    "merchant": "Example Hotel 185",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "GBP",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r186": {
+    "merchant": "Example Hotel 186",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "USD",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r187": {
+    "merchant": "Example Hotel 187",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "EUR",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r188": {
+    "merchant": "Example Hotel 188",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "GBP",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r189": {
+    "merchant": "Example Hotel 189",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "USD",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r190": {
+    "merchant": "Example Hotel 190",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "EUR",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r191": {
+    "merchant": "Example Hotel 191",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "GBP",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r192": {
+    "merchant": "Example Hotel 192",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "USD",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r193": {
+    "merchant": "Example Hotel 193",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "EUR",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r194": {
+    "merchant": "Example Hotel 194",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "GBP",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r195": {
+    "merchant": "Example Hotel 195",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "USD",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r196": {
+    "merchant": "Example Hotel 196",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "EUR",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r197": {
+    "merchant": "Example Hotel 197",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "GBP",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r198": {
+    "merchant": "Example Hotel 198",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "USD",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r199": {
+    "merchant": "Example Hotel 199",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "EUR",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
+  },
+  "r200": {
+    "merchant": "Example Hotel 200",
+    "date": "2026-09-24",
+    "total": "110.00",
+    "currency": "GBP",
+    "category": "lodging",
+    "tax": "10.00",
+    "items": [
+      {
+        "description": "Room night",
+        "amount": "100.00"
+      }
+    ]
   }
 }

@@ -10,8 +10,8 @@ from a2a.server.tasks import InMemoryTaskStore
 from a2a.types import AgentCapabilities, AgentCard, AgentInterface, AgentSkill, Message, Part
 from starlette.applications import Starlette
 
-from auditor.checks import audit
-from auditor.intake import fixture_intake
+from auditor.intake import intake
+from auditor.judgment import run_audit
 from auditor.policy_agent import run_policy
 
 
@@ -21,12 +21,22 @@ class Executor(AgentExecutor):
 
     async def execute(self, context, event_queue):
         payload = json.loads(context.get_user_input())
-        if self.role == "intake":
-            result = fixture_intake(payload["report_id"])
-        elif self.role == "policy":
-            result = await run_policy(payload)
-        else:
-            result = audit(payload)
+        try:
+            if self.role == "intake":
+                result = await intake(payload["report_id"], payload.get("mode", "fixture_replay"))
+            elif self.role == "policy":
+                result = await run_policy(payload)
+            else:
+                result = await run_audit(payload)
+        except Exception as exc:
+            code = getattr(exc, "code", None)
+            if code not in {429, 503}:
+                code = (
+                    "CACHE_MISSING"
+                    if isinstance(exc, ValueError) and "No cached" in str(exc)
+                    else "INVALID_INPUT"
+                )
+            result = {"agent_error": code}
         await event_queue.enqueue_event(
             Message(message_id=str(uuid4()), role=2, parts=[Part(text=json.dumps(result))])
         )

@@ -5,10 +5,12 @@ import httpx
 from a2a.types import AgentCard, Message, Part, SendMessageRequest
 from google.protobuf.json_format import MessageToDict, ParseDict
 
+from auditor.errors import AgentFailure
+
 
 async def invoke(url, payload, client=None):
     if client is None:
-        async with httpx.AsyncClient(timeout=90) as own_client:
+        async with httpx.AsyncClient(timeout=300) as own_client:
             return await invoke(url, payload, own_client)
     response = await client.get(url.rstrip("/") + "/.well-known/agent-card.json")
     response.raise_for_status()
@@ -33,4 +35,7 @@ async def invoke(url, payload, client=None):
     body = response.json()
     if "error" in body:
         raise RuntimeError("A2A agent returned an error")
-    return json.loads(body["result"]["message"]["parts"][0]["text"])
+    result = json.loads(body["result"]["message"]["parts"][0]["text"])
+    if "agent_error" in result:
+        raise AgentFailure(result["agent_error"])
+    return result

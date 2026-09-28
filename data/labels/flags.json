@@ -59,5 +59,249 @@
       ]
     }
   ],
-  "report-10": []
+  "report-10": [],
+  "report-11": [],
+  "report-12": [],
+  "report-13": [
+    {
+      "rule": "MEAL_LIMIT",
+      "lines": [
+        "e29"
+      ]
+    }
+  ],
+  "report-14": [
+    {
+      "rule": "RECEIPT_REQUIRED",
+      "lines": [
+        "e33"
+      ]
+    }
+  ],
+  "report-15": [
+    {
+      "rule": "DISALLOWED",
+      "lines": [
+        "e37"
+      ]
+    }
+  ],
+  "report-16": [
+    {
+      "rule": "DUPLICATE",
+      "lines": [
+        "e41",
+        "e42"
+      ]
+    }
+  ],
+  "report-17": [
+    {
+      "rule": "SPLIT_REVIEW",
+      "lines": [
+        "e45",
+        "e46"
+      ]
+    }
+  ],
+  "report-18": [
+    {
+      "rule": "WEEKEND_REVIEW",
+      "lines": [
+        "e49"
+      ]
+    }
+  ],
+  "report-19": [
+    {
+      "rule": "AMOUNT_MISMATCH",
+      "lines": [
+        "e53"
+      ]
+    }
+  ],
+  "report-20": [],
+  "report-21": [],
+  "report-22": [],
+  "report-23": [
+    {
+      "rule": "MEAL_LIMIT",
+      "lines": [
+        "e69"
+      ]
+    }
+  ],
+  "report-24": [
+    {
+      "rule": "RECEIPT_REQUIRED",
+      "lines": [
+        "e73"
+      ]
+    }
+  ],
+  "report-25": [
+    {
+      "rule": "DISALLOWED",
+      "lines": [
+        "e77"
+      ]
+    }
+  ],
+  "report-26": [
+    {
+      "rule": "DUPLICATE",
+      "lines": [
+        "e81",
+        "e82"
+      ]
+    }
+  ],
+  "report-27": [
+    {
+      "rule": "SPLIT_REVIEW",
+      "lines": [
+        "e85",
+        "e86"
+      ]
+    }
+  ],
+  "report-28": [
+    {
+      "rule": "WEEKEND_REVIEW",
+      "lines": [
+        "e89"
+      ]
+    }
+  ],
+  "report-29": [
+    {
+      "rule": "AMOUNT_MISMATCH",
+      "lines": [
+        "e93"
+      ]
+    }
+  ],
+  "report-30": [],
+  "report-31": [],
+  "report-32": [],
+  "report-33": [
+    {
+      "rule": "MEAL_LIMIT",
+      "lines": [
+        "e109"
+      ]
+    }
+  ],
+  "report-34": [
+    {
+      "rule": "RECEIPT_REQUIRED",
+      "lines": [
+        "e113"
+      ]
+    }
+  ],
+  "report-35": [
+    {
+      "rule": "DISALLOWED",
+      "lines": [
+        "e117"
+      ]
+    }
+  ],
+  "report-36": [
+    {
+      "rule": "DUPLICATE",
+      "lines": [
+        "e121",
+        "e122"
+      ]
+    }
+  ],
+  "report-37": [
+    {
+      "rule": "SPLIT_REVIEW",
+      "lines": [
+        "e125",
+        "e126"
+      ]
+    }
+  ],
+  "report-38": [
+    {
+      "rule": "WEEKEND_REVIEW",
+      "lines": [
+        "e129"
+      ]
+    }
+  ],
+  "report-39": [
+    {
+      "rule": "AMOUNT_MISMATCH",
+      "lines": [
+        "e133"
+      ]
+    }
+  ],
+  "report-40": [],
+  "report-41": [],
+  "report-42": [],
+  "report-43": [
+    {
+      "rule": "MEAL_LIMIT",
+      "lines": [
+        "e149"
+      ]
+    }
+  ],
+  "report-44": [
+    {
+      "rule": "RECEIPT_REQUIRED",
+      "lines": [
+        "e153"
+      ]
+    }
+  ],
+  "report-45": [
+    {
+      "rule": "DISALLOWED",
+      "lines": [
+        "e157"
+      ]
+    }
+  ],
+  "report-46": [
+    {
+      "rule": "DUPLICATE",
+      "lines": [
+        "e161",
+        "e162"
+      ]
+    }
+  ],
+  "report-47": [
+    {
+      "rule": "SPLIT_REVIEW",
+      "lines": [
+        "e165",
+        "e166"
+      ]
+    }
+  ],
+  "report-48": [
+    {
+      "rule": "WEEKEND_REVIEW",
+      "lines": [
+        "e169"
+      ]
+    }
+  ],
+  "report-49": [
+    {
+      "rule": "AMOUNT_MISMATCH",
+      "lines": [
+        "e173"
+      ]
+    }
+  ],
+  "report-50": []
 }

@@ -10,14 +10,34 @@ x-agent: &agent
 services:
   intake:
     <<: *agent
+    env_file:
+      - path: .env
+        required: false
+    volumes: [model-cache:/app/results]
     environment: {AGENT_ROLE: intake, AGENT_URL: 'http://intake:8211/'}
   policy:
     <<: *agent
     environment: {AGENT_ROLE: policy, AGENT_URL: 'http://policy:8211/'}
   audit:
     <<: *agent
+    env_file:
+      - path: .env
+        required: false
+    volumes: [model-cache:/app/results]
     environment: {AGENT_ROLE: audit, AGENT_URL: 'http://audit:8211/'}
+  database:
+    image: postgres:17-alpine
+    environment: {POSTGRES_DB: auditor, POSTGRES_USER: auditor, POSTGRES_PASSWORD: local-demo-only}
+    volumes: [postgres-data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U auditor"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
   reviewer:
+    env_file:
+      - path: .env
+        required: false
     build: .
     image: expense-auditor:local
     ports: ['127.0.0.1:5192:5190']
@@ -25,11 +45,14 @@ services:
       INTAKE_URL: http://intake:8211/
       POLICY_URL: http://policy:8211/
       AUDIT_URL: http://audit:8211/
-      AUDITOR_DB: /app/results/auditor.sqlite
-    volumes: [audit-history:/app/results]
+      DATABASE_URL: postgresql://auditor:local-demo-only@database:5432/auditor
+    volumes: [model-cache:/app/results]
     depends_on:
+      database: {condition: service_healthy}
       intake: {condition: service_healthy}
       policy: {condition: service_healthy}
       audit: {condition: service_healthy}
 volumes:
+  model-cache:
+  postgres-data:
   audit-history:

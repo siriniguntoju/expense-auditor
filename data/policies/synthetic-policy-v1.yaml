@@ -1,0 +1,5 @@
+version: synthetic-policy-v1
+base_currency: USD
+meal_limit: '75.00'
+receipt_required_above: '25.00'
+disallowed_categories: [alcohol]

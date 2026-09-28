@@ -1,4 +1,4 @@
-"""Start four local services, with no model calls. Ctrl-C stops all children."""
+"""Start four local services. Live calls require explicit free-tier configuration."""
 
 import os
 import subprocess
@@ -45,7 +45,7 @@ def main():
                 cwd=ROOT,
             )
         )
-        print("Reviewer: http://localhost:5190 (offline fixture replay)", flush=True)
+        print("Reviewer: http://localhost:5190 (selectable extraction mode)", flush=True)
         while all(p.poll() is None for p in children):
             time.sleep(0.5)
     except KeyboardInterrupt:
